@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+/* ============== CONTAINER ============== */
+.content__container {
+    width: 945px;
+    margin: 0 auto;
+}
+
+/* ============== SECTION ============== */
+section{
+    margin-bottom: 100px;
+}
+.section__title {
+font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section--grey{
+    background-color: whitesmoke;
+    padding-top: 100px ;
+    padding-bottom: 100px;
+}
+
+.section__subtitle{
+    text-align: center;
+    font-size: 20px;
+    color: #828282;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+/* ============== NAVIGATION ============== */
+nav {
+    width: 945px;
+    margin: 0 auto;
+    padding-top: 35px;
+
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #828282;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #828282;
+}
+
+/* ============== HERO ============== */
+.title__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.hero > h4 {
+    font-size: 18px;
+}
+
+.title__container > span {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/* ============== ABOUT ME ============== */
+.aboutMe  ul{
+    width: 685px;
+    margin: 0 auto;
+}
+
+.aboutMe li{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* ============== SKILLS ============== */
+.skills ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skills li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h6 {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* ============== PORTFOLIO ============== */
+.portfolio li{
+margin-bottom: 50px;
+}
+
+.portfolio div{
+    margin-bottom: 20px;
+}
+
+.portfolio a{
+
+    text-align: center;
+    color: #2e48a7;
+    font-size: 18px;
+}
+
+/* ============== CONTACTS ============== */
+.contacts ul {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.contacts li img{
+    width: 48px;
+    height: 48px;
+}
+
+.contacts p{
+    text-align: center;
+}
+
+
